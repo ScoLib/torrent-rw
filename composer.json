@@ -1,0 +1,27 @@
+{
+	"name": "scolib/torrent-rw",
+	"description": "Utilities for reading and writing torrent files and magnet links",
+	"keywords": ["openseedbox", "torrent", "parse", "bencode", "bdecode", "magnet"],
+	"authors": [
+		{
+			"name": "Erin Drummond",
+			"email": "erin.dru@gmail.com"
+		},
+		{
+			"name": "klgd",
+			"email": "slice1213@gmail.com"
+		}
+	],
+	"require": {
+		"php": "^7.2",
+		"rych/bencode": "^1.0"
+	},
+	"require-dev": {		
+		"phpunit/phpunit": "^8.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"Openseedbox\\": "src/"
+		}
+	}
+}
